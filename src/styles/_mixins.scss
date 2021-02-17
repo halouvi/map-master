@@ -1,0 +1,7 @@
+/* Media queries Breakpoint mixins */
+
+@mixin for-medium-layout {
+  @media (min-width: 770px) {
+    @content;
+  }
+}

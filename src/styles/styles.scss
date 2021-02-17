@@ -1,0 +1,12 @@
+// Setup
+@import './basics';
+@import './variables';
+@import './mixins';
+
+// Components
+@import '../components/Header/Header';
+@import '../components/Loader/Loader';
+@import '../components/Footer/Footer';
+
+// Pages
+@import '../pages/Map/Map';
