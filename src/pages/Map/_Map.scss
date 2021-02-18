@@ -12,6 +12,9 @@ main {
   iframe {
     flex-grow: 1;
     border: none;
+    @include for-medium-layout {
+      border-radius: 4px;
+    }
   }
   .MuiButtonBase-root {
     font-family: inherit;

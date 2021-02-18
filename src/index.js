@@ -1,11 +1,12 @@
-import { StrictMode } from 'react'
 import { render } from 'react-dom'
 import { App } from './App.jsx'
+import { Provider as EventBusProvider } from 'react-bus'
+
 import './styles/styles.scss'
 
 render(
-  <StrictMode>
+  <EventBusProvider>
     <App />
-  </StrictMode>,
+  </EventBusProvider>,
   document.getElementById('root')
 )

@@ -1,6 +1,16 @@
 header {
+  height: 70px;
   display: flex;
+  align-items: center;
   justify-content: center;
   color: white;
-  background-color: $brandColor;
+  background: linear-gradient($brandColorDark, $brandColor);
+  h2 {
+    display: flex;
+    align-items: center;
+    img {
+      margin: 0 8px;
+      max-height: 35px;
+    }
+  }
 }
